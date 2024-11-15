@@ -102,7 +102,7 @@ struct CustomSteppedSlider: View {
                         .mask(
                             HStack {
                                 Rectangle()
-                                    .frame(width: CGFloat(sliderValue) * innerSliderWidth)
+                                    .frame(width: CGFloat(sliderValue) * innerSliderWidth + 8)
                                 Spacer()
                             }
                         )
