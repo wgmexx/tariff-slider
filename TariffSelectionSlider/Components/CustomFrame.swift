@@ -5,6 +5,7 @@ struct CustomFrame: View {
         ZStack {
             ShapeWithArc()
                 .frame(height: 24)
+                .padding()
         }
     }
 }
